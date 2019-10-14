@@ -1,7 +1,5 @@
 # project-2
 
-# project-10
-
 [70 pts]  You will be writing a (rather primitive) online store simulator. It will have three classes: Product, Customer and Store. All data members of each class should be marked as private and the classes should have any get or set methods that will be needed to access them. Here are descriptions of methods for the three classes:
 
 **Product:**
