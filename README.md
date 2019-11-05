@@ -39,6 +39,6 @@ A Store object represents a store, which has some number of products in its inve
 
 **[20 pts]**  In addition to your file containing the code for the above classes, you must also submit a file that contains unit tests for your Store.py file.  It must have at least five unit tests and use at least three different assert functions.
 
-Gradescope will not test your main function or unit tests - the TAs will take care of that.
+**Gradescope will not test your main function or unit tests - the TAs will take care of that.**
 
 Your files must be named: **Store.py** and **StoreTester.py**
