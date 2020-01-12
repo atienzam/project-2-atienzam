@@ -41,4 +41,15 @@ A Store object represents a store, which has some number of products in its inve
 
 **Gradescope will not test your main function or unit tests - the TAs will take care of that.**
 
+Here's a very simple example of how your classes could be used:
+```
+p1 = Product("889", "Rodent of unusual size", "when a rodent of the usual size just won't do", 33.45, 8)
+c1 = Customer("Yinsheng", "QWF", False)
+myStore = Store()
+myStore.add_product(p1)
+myStore.add_member(c1)
+myStore.add_product_to_member_cart("889", "QWF")
+result = myStore.check_out_member("QWF")
+```
+
 Your files must be named: **Store.py** and **StoreTester.py**
